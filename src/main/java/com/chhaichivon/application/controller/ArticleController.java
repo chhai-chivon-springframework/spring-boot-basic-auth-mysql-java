@@ -1,7 +1,7 @@
-package com.spn.application.controller;
+package com.chhaichivon.application.controller;
 
-import com.spn.application.model.Article;
-import com.spn.application.service.ArticleService;
+import com.chhaichivon.application.model.Article;
+import com.chhaichivon.application.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -19,7 +19,7 @@ import java.util.Map;
 public class ArticleController extends ApiResponse<Article> implements BaseController<Article> {
 
     @Autowired
-    private ArticleService  articleService;
+    private ArticleService articleService;
 
     @Override
     @RequestMapping(value = "",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)

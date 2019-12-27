@@ -1,4 +1,4 @@
-package com.spn.application;
+package com.chhaichivon.application;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

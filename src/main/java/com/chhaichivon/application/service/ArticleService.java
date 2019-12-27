@@ -1,7 +1,7 @@
-package com.spn.application.service;
+package com.chhaichivon.application.service;
 
-import com.spn.application.model.Article;
-import com.spn.application.repository.ArticleRepository;
+import com.chhaichivon.application.model.Article;
+import com.chhaichivon.application.repository.ArticleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

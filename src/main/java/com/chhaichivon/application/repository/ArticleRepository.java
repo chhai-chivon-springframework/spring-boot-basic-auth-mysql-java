@@ -1,6 +1,6 @@
-package com.spn.application.repository;
+package com.chhaichivon.application.repository;
 
-import com.spn.application.model.Article;
+import com.chhaichivon.application.model.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

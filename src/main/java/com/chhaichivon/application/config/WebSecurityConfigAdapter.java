@@ -1,4 +1,4 @@
-package com.spn.application.config;
+package com.chhaichivon.application.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

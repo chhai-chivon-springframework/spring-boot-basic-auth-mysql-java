@@ -1,4 +1,4 @@
-package com.spn.application.controller;
+package com.chhaichivon.application.controller;
 
 import org.springframework.http.ResponseEntity;
 

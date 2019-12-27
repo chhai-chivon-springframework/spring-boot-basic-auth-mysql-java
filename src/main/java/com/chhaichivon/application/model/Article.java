@@ -1,4 +1,4 @@
-package com.spn.application.model;
+package com.chhaichivon.application.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
@@ -28,7 +28,7 @@ public class Article {
     private String title;
 
     @NotBlank
-    private String content;
+    private String body;
 
     @Column(nullable = false, updatable = false)
     @Temporal(TemporalType.TIMESTAMP)

@@ -1,4 +1,4 @@
-package com.spn.application.config;
+package com.chhaichivon.application.config;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;

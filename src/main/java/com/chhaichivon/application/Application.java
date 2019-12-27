@@ -1,8 +1,8 @@
-package com.spn.application;
+package com.chhaichivon.application;
 
-import com.spn.application.model.Article;
-import com.spn.application.service.ArticleService;
-import com.spn.application.util.DateUtil;
+import com.chhaichivon.application.model.Article;
+import com.chhaichivon.application.service.ArticleService;
+import com.chhaichivon.application.util.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -27,7 +27,7 @@ public class Application implements CommandLineRunner {
 		for (int i = 0 ; i < 50 ; i++){
 			Article article  = new Article();
 			article.setTitle("title "+i);
-			article.setContent("content "+i);
+			article.setBody("content "+i);
 			article.setCreatedAt(DateUtil.getToday());
 			article.setUpdatedAt(DateUtil.getToday());
 			articleService.saveOrUpdate(article);

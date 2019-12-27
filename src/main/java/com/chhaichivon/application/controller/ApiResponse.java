@@ -1,4 +1,4 @@
-package com.spn.application.controller;
+package com.chhaichivon.application.controller;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
